@@ -1,3 +1,9 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial,sans-serif;
+}
+
 button {
   width: 100%; 
   max-width: 500px;
@@ -9,7 +15,8 @@ button {
   border: none;
 }
 
-body {
+.body {
+  font-family: Arial,sans-serif;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -47,6 +54,20 @@ p {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px; 
   width:500px;
+}
+
+nav{
+  /* width: 100%; */
+  background-color: black;
+  color: chocolate;
+  padding: 40px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
 
 @media (max-width: 435px) {

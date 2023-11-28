@@ -85,6 +85,10 @@ const App = () => {
 
   return (
     <div>
+      <nav>
+        <h1>Welcome to WordMaster Game</h1>
+      </nav>
+      <div  className='body'>
       <div>
         <h2> Word: {hiddenWord}</h2>
       </div>
@@ -98,6 +102,12 @@ const App = () => {
       <div className='reset'>
         <button onClick={handleResetClick}>Reset Game</button>
       </div>
+      </div>
+      <footer>
+    <p>&copy; 2023 WORLDMASTER | All Right Reserved</p>
+    <p>Developed & Maintained by Panda</p>
+   
+    </footer>
     </div>
   );
 };
