@@ -1,0 +1,56 @@
+button {
+  width: 100%; 
+  max-width: 500px;
+  height: 50px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: skyblue;
+  border: none;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(./images/20220622_083954.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+div {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.reset button {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.optionButton  {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; 
+  width:500px;
+}
+
+@media (max-width: 435px) {
+  .optionButton  {
+    width:100%;
+  }
+}
