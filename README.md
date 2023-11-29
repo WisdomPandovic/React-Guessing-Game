@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# WordMaster Game - React Letter Guessing Game
+Welcome to WordMaster Game! Test your vocabulary and guessing skills in this fun letter-guessing game. A simple React application for playing a letter guessing game. The user can guess the correct word by clicking on options. The game includes features such as multiple rounds, resetting the game, and changing the background image.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Prerequisites
 
-## Available Scripts
+- Node.js and npm (Node Package Manager) must be installed on your machine.
 
-In the project directory, you can run:
+## Instructions
+Click on the letter buttons to guess the correct word.
+You have 5 chances to guess the word.
+If you guess correctly, the word will be revealed, and you earn 2 points.
+If you run out of guesses, the correct word will be shown.
+Click 'Reset Game' to start a new round.
 
-### `npm start`
+## How to Play
+Click on the box to guess the correct word.
+You have a limited number of chances to guess the word.
+If you guess correctly, the word will be revealed.
+If you run out of guesses, the correct word will be shown.
+Click 'Reset Game' to start a new game.
+Use the navigation button to change the background image.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+* Clone the repository:
+git clone https://github.com/WisdomPandovic/React-Guessing-Game.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Install dependencies:
+* cd React-Guessing-Game
+npm install
 
-### `npm test`
+## Run the app:
+npm start
+## Open your browser and navigate to http://localhost:3000 to play the game.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+React
+JavaScript
+CSS
 
-### `npm run build`
+## Acknowledgments
+The app uses the Random Word API to fetch random words.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Author
+[Wisdom Onwuchekwa]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
